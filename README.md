@@ -1,4 +1,4 @@
-# storemate_v3_customer_display
+# customer_dashboard_display
 
 ## Project setup
 ```
