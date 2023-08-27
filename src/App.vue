@@ -6,7 +6,7 @@
   <footer class="footer">
     <div class="watermark">
       <strong>Powered by </strong>
-      <img src="https://storemate.lk/wp-content/uploads/2022/01/Store-Mate-Logo-1-1.webp" class="watermark-image" >
+      <img src="https://res.cloudinary.com/drlx72mlc/image/upload/v1693144766/nisala_product_2_zx7rr3.jpg" class="watermark-image" >
     </div>
   </footer>
 </template>
@@ -61,14 +61,14 @@ export default {
   transform: translate(-30%, -30%);
   font-size: 16px;
   pointer-events: none;
-  padding-bottom: 10px;
+  padding-bottom: 2px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
 }
 
 .watermark-image {
-  height: 50px;
+  height: 40px;
   width: 50px;
 }
 </style>

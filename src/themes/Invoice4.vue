@@ -11,7 +11,7 @@
 
   <div class="row text-center">
     <div class="name">
-        <h2>Parallax Technologies (Private) Limited</h2>
+        <h2>ABC Technologies (Private) Limited</h2>
       </div></div>
 
   <div class="row text-center">
@@ -49,28 +49,28 @@
       <td>{{ product.productTotalPrice.toFixed(2) }}</td>
     </tr>
     <tr v-for="(product, index) in products" :key="product.row_id">
-      <th scope="row">{{ index + 1 }}</th>
+      <th scope="row">{{ index + 2 }}</th>
       <td>{{ product.product_name }}</td>
       <td>{{ product.quantity }}</td>
       <td>{{ product.price }}</td>
       <td>{{ product.productTotalPrice.toFixed(2) }}</td>
     </tr>
     <tr v-for="(product, index) in products" :key="product.row_id">
-      <th scope="row">{{ index + 1 }}</th>
+      <th scope="row">{{ index + 3 }}</th>
       <td>{{ product.product_name }}</td>
       <td>{{ product.quantity }}</td>
       <td>{{ product.price }}</td>
       <td>{{ product.productTotalPrice.toFixed(2) }}</td>
     </tr>
     <tr v-for="(product, index) in products" :key="product.row_id">
-      <th scope="row">{{ index + 1 }}</th>
+      <th scope="row">{{ index + 4 }}</th>
       <td>{{ product.product_name }}</td>
       <td>{{ product.quantity }}</td>
       <td>{{ product.price }}</td>
       <td>{{ product.productTotalPrice.toFixed(2) }}</td>
     </tr>
     <tr v-for="(product, index) in products" :key="product.row_id">
-      <th scope="row">{{ index + 1 }}</th>
+      <th scope="row">{{ index + 5 }}</th>
       <td>{{ product.product_name }}</td>
       <td>{{ product.quantity }}</td>
       <td>{{ product.price }}</td>
@@ -340,16 +340,16 @@ export default {
 <style scoped>
 
   .invoice{
-    background: linear-gradient(to bottom, #033D8C 20%, #0598D1 50%,#033D8C);
+    background: linear-gradient(to bottom, #038c05 20%, #06f05c 50%,#074f17);
     border-color: rgba(255, 250, 250, 0);
     overflow-y: hidden !important;
     overflow-x: hidden !important;
   }
   .image {
-  margin-left: 5dvw;
+  margin-left: 2.5dvw;
   margin-bottom: 5dvh;
   margin-top: 2dvh;
-  height: 85dvh;
+  height: 90dvh;
   width: 120dvh;
   overflow-y: hidden !important;
   overflow-x: hidden !important;

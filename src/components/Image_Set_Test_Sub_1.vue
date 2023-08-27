@@ -19,8 +19,9 @@ export default {
   data() {
     return {
       images: [
-        "https://4kwallpapers.com/images/walls/thumbs_3t/11656.jpg",
-        "https://4kwallpapers.com/images/walls/thumbs_3t/11606.jpg",
+        "https://s3.amazonaws.com/ocn-media/44c1f751-feaf-41bc-ae31-34cfdad5baea.jpeg",
+        "https://b.zmtcdn.com/data/pictures/chains/8/310078/7c8d1e6d9612e5bee0d54a39188e95a4.jpg",
+        "https://cbs12.com/resources/media2/16x9/full/1015/center/80/e171891d-21dc-4e40-82bd-8c66e301099d-large16x9_whopper.JPG",
       ],
       currentImageIndex: 0,
     };

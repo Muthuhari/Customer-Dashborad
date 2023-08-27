@@ -2,7 +2,7 @@
 
 import Image_Set_Test_Sub_1 from "@/components/Image_Set_Test_Sub_1.vue";
 // import Invoice from "@/themes/Invoice2.vue";
-import Invoice4 from "@/themes/Invoice4.vue";
+import Invoice4  from "@/themes/Invoice4.vue";
 
 export default {
   components: {

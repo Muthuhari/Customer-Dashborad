@@ -367,11 +367,11 @@ export default {
     overflow-x: hidden !important;
   }
   .image {
-  margin-left: 40px;
+  margin-left: 10px;
   margin-bottom: 88px;
   margin-top: 50px;
   height: 750px;
-  width: 1100px;
+  width: 100px;
   overflow-y: hidden !important;
   overflow-x: hidden !important;
   border-radius: 30px; /* Adjust the value as desired */
